@@ -1,3 +1,4 @@
+// octal to decimal
 
 #include <stdio.h>
 #include <string.h>
@@ -6,20 +7,20 @@
 int main()
 {
     char oct[32] = { 0 };
-    int decimal, i;
-    int counter; 
+    int dec, i;
+    int cnt; 
 
-    printf("Enter the octal value: ");
+    printf("Enter octal value: ");
     gets(oct);
 
-    counter = 0;
-    decimal = 0;
+    cnt = 0;
+    dec = 0;
     for (i = (strlen(oct) - 1); i >= 0; i--) {
-        decimal = decimal + (oct[i] - 0x30) * pow((double)8, (double)counter);
-        counter++;
+        dec = dec + (oct[i] - 0x30) * pow((double)8, (double)cnt);
+        cnt++;
     }
 
-    printf("Decimal val: %d", decimal);
+    printf("DECIMAL value is: %d", dec);
 
     return 0;
 }
