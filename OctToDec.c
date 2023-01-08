@@ -11,7 +11,7 @@ int main()
     int cnt; 
 
     printf("Enter octal value: ");
-    gets(oct);
+    fgets(oct, 10, stdin);
 
     cnt = 0;
     dec = 0;
@@ -20,7 +20,7 @@ int main()
         cnt++;
     }
 
-    printf("DECIMAL value is: %d", dec);
+    printf("DECIMAL value is: %d\n", dec);
 
     return 0;
 }

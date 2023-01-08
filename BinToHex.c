@@ -20,6 +20,6 @@ int main()
         binaryNumber = binaryNumber / 10;
     }
 
-    printf("Hexadecimal Number: %X", hexNumber);
+    printf("Hexadecimal Number: %X\n", hexNumber);
     return 0;
 }

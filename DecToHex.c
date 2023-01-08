@@ -41,6 +41,6 @@ int main()
     printf("Hexadecimal value is: ");
     for (i = (cnt - 1); i >= 0; i--)
         printf("%c", hex[i]);
-
+    printf("\n");
     return 0;
 }

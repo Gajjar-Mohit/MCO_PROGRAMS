@@ -20,6 +20,6 @@ int main()
         binaryNumber = binaryNumber / 10;
     }
 
-    printf("Octal Number: %o", octalNumber);
+    printf("Octal Number: %o\n", octalNumber);
     return 0;
 }

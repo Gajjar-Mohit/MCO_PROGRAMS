@@ -12,7 +12,7 @@ int main()
     int dig; 
 
     printf("Enter hex value: ");
-    gets(hex);
+    fgets(hex, 10, stdin);
 
     cnt = 0;
     dec = 0;
@@ -43,6 +43,6 @@ int main()
         cnt++;
     }
 
-    printf("DECIMAL value is: %d", dec);
+    printf("DECIMAL value is: %d\n", dec);
     return 0;
 }

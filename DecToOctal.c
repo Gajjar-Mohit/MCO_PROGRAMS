@@ -20,6 +20,6 @@ int main()
     printf("Octal val: ");
     for (i = (counter - 1); i >= 0; i--)
         printf("%d", oct[i]);
-
+    printf("\n");
     return 0;
 }

@@ -10,7 +10,7 @@ int main()
     int counter; 
 
     printf("Enter the binary value: ");
-    gets(bin);
+    fgets(bin, 10, stdin);
 
     counter = 0;
     decimal = 0;
@@ -19,7 +19,7 @@ int main()
         counter++;
     }
 
-    printf("Decimal val: %d", decimal);
+    printf("Decimal val: %d\n", decimal);
 
     return 0;
 }

@@ -19,6 +19,6 @@ int main()
     printf("Binary value :");
     for (i = (counter - 1); i >= 0; i--)
         printf("%d", binary[i]);
-
+    printf("\n");
     return 0;
 }
